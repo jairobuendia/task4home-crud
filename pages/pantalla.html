@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="../styles/style-pantalla.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+<body>
+  <div id="wrapper" class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="navbar-toggler-icon"></span> </button> <a class="navbar-brand text-white" href="#">Task4Home</a><a class="navbar-brand" href="#"><img width="32" src="../images/logo.png" alt="LogoPagina"></a>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="navbar-nav ">
+                <li class="nav-item active "> <a class="nav-link text-white" href="#">Inicio <span class="sr-only">(current)</span></a> </li>
+                <li class="nav-item"> <a class="nav-link text-white" href="#">Tareas</a> </li>
+                <li class="nav-item"> <a class="nav-link text-white" href="../pages/consultas.html">Usuarios</a> </li>
+                <li class="nav-item"> <a class="nav-link text-white" href="#">Calendario</a> </li>
+            </ul>
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"><i class="bi bi-person-fill text-white"></i> Jairo Buendía López</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="#">Ajustes</a> <a class="dropdown-item" href="#">Redes Sociales</a> <a class="dropdown-item" href="#">Privacidad</a>
+                        <div class="dropdown-divider"> </div> <a class="dropdown-item" href="../pages/login.html">Cerrar sesión</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- CARDS -->
+
+    <container id="cards">
+        <div class="main text-center mt-5">
+            <h6 class="heading">¿Quieres quitarte tareas de forma rápida?</h6>
+            <p class="texto pt-2 ">Con Task4Home lo tendras más fácil que nunca</p>
+            <p class="texto ">Elige donde quieres ir y empieza a explorar nuestra aplicación web</p>
+        </div>
+        <div class="container mt-4 d-flex justify-content-center">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <div class="cards">
+                        <div class="first bg-white p-4 text-center"> <img src="../images/casa.png" />
+                            <h5>Tareas de hogar</h5>
+                            <p class="line1">No limitation - Its got everything that you 'll need as you grow</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards">
+                        <div class=" second bg-white p-4 text-center"> <img src="../images/clase.png" />
+                            <h5>Tareas de clase</h5>
+                            <p class="line2">$50/month gets you 10 users, and you can add more $10 pe user</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards">
+                        <div class=" third bg-white p-4 text-center"> <img src="../images/cocina.png" />
+                            <h5>Tareas de cocina</h5>
+                            <p class="line3">We'll help you get started and be there when you have questions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  class="container mt-4 d-flex justify-content-center">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <div class="cards">
+                        <div class="first bg-white p-4 text-center"> <img src="../images/tareas.png" />
+                            <h5>Otras tareas</h5>
+                            <p class="line1">No limitation - Its got everything that you 'll need as you grow</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards">
+                        <div class=" second bg-white p-4 text-center"> <img src="../images/combo.png" />
+                            <h5>Racha de tareas</h5>
+                            <p class="line2">$50/month gets you 10 users, and you can add more $10 pe user</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cards">
+                        <div class=" third bg-white p-4 text-center"> <img src="../images/copa.png" />
+                            <h5>Premios</h5>
+                            <p class="line3">We'll help you get started and be there when you have questions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </container>
+  </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>

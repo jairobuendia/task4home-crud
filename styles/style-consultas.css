@@ -1,0 +1,22 @@
+#wrapper{margin: 0;
+    padding: 0;
+    }
+    
+    .navbar {
+        background-color: #3B281A !important;
+        
+    }
+    
+    body {
+        background-color: #5f402a;
+    }
+
+    .colorfondo{background-color: #3B281A;}
+
+    .btn-primary{background-color: black;
+                border-color: black;}
+
+    .btn-primary:hover{background-color: rgb(83, 83, 83);
+        border-color: rgb(83, 83, 83);}
+    
+    
